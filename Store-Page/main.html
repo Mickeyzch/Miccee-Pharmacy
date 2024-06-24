@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miccee drugstore</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="title-border">
+      <div class="title">Welcome to Miccee Phramacy Co.</div>
+    </div>
+  </header>
+  <div class="main">
+    <div class="data">
+      <div class="data-input-container">
+        <div class="data-input">
+          <div class="data-input-row">
+            <div class="data-category">OrderID:</div>
+            <input type="text" class="data-items js-data-items-order">
+          </div>
+          <div class="data-input-row">
+            <div class="data-category">Date:</div>
+            <input type="text" class="data-items js-data-items-date">
+          </div>
+          <div class="data-input-row">
+            <div class="data-category">Gender:</div>
+            <input type="text" class="data-items js-data-items-gender">
+          </div>
+          <div class="data-input-row">
+            <div class="data-category">Age:</div>
+            <input type="text" class="data-items js-data-items-age">
+          </div>
+          <div class="data-input-row">
+            <div class="data-category">Product:</div>
+            <input type="text" class="data-items js-data-items-product">
+          </div>
+          <div class="data-input-row">
+            <div class="data-category">Quantity:</div>
+            <input type="text" class="data-items js-data-items-quantity">
+          </div>
+          <div class="data-input-row">
+            <div class="data-category">Price: </div>
+            <input type="text" class="data-items js-data-items-price">
+          </div>
+        </div>
+        <button class="data-submit">Submit</button>
+      </div>
+    </div>
+
+    <div class="search-input-container">
+      <input type="text" placeholder="Search Product..." class="search-input js-search-input">
+    </div>
+
+    <div class="table-container">
+      <table class="data-table js-data-table">
+      </table>
+    </div>
+  </div>
+
+  <script type="module" src="main.js">
+
+  </script>
+
+</body>
+
+</html>
